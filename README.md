@@ -14,7 +14,7 @@ Photo by <a href="https://unsplash.com/@enginakyurt?utm_source=unsplash&utm_medi
 - [IV. Conclusions](#iv-conclusions)
 
 ## I. Introduction
-Cooking is both an art and science, a wonderful experience that allows us to explore and create delicious meals. Food is important since it provides the energy and nutrients for out bodies and minds to function well. However, deciding what to cook can sometimes be frustrating, especially when we only have a few ingredients in our home and limited time. This is a common situation whether you are students, busy professionals, or simply want to eat well but need quick and convenient meal ideas. In this project, I want to create a food recipe recommender system that helps users discover high-protein and quick meals based on the ingredients they already have at home.
+Cooking is both an art and science, a wonderful experience that allows us to explore and create delicious meals. Food is important since it provides the energy and nutrients for our bodies and minds to function well. However, deciding what to cook can sometimes be frustrating, especially when we only have a few ingredients in our home and limited time. This is a common situation whether you are students, busy professionals, or simply want to eat well but need quick and convenient meal ideas. In this project, I want to create a food recipe recommender system that helps users discover high-protein and quick meals based on the ingredients they already have at home.
 ## II. Data and Methodology
 The dataset was retrieved from over 500,000 recipes from food.com, posted by Alvin and can be found here on [www.kaggle.com](https://www.kaggle.com/datasets/irkaal/foodcom-recipes-and-reviews).
 <p align="center">
@@ -30,7 +30,7 @@ The first figure below explains the results after data pre-processing step. The 
   <img width="500" height="500" src="https://github.com/a-pradono/food_recipe/blob/main/images/plot01.png">
 </p>
 
-Users can query the system based on the ingredients available at home to get personalized recipe recommendations. For example, the user inputs **bread, patties, and mushroom** as the available ingredients. After entering the ingredients, the system recommends two recipe options, each providing detailed information such as the meal name, preparation and cooking time, calories, protein content, and full instructions, allowing users to easily choose between them.
+Users can query the system based on the ingredients available at home to get personalized recipe recommendations. For example, the user inputs **bread, patties, and mushroom** as the available ingredients. After entering the ingredients, the system recommends two recipe options, each providing detailed information such as the meal name, preparation and cooking time, calories, protein content, and full instructions. This allows users to easily choose between them.
 
 <p align="center">
   <img width="700" height="500" src="https://github.com/a-pradono/food_recipe/blob/main/images/plot03.PNG">
@@ -45,5 +45,5 @@ Here is the step-by-step flow that takes a user query and returs the meal recipe
 ## IV. Conclusions
 The objective of this project was to develop recipe recommendation system using LLM. The following are the conclusions drawn from this project:
   * Data pre-processing is essential in improving efficiency. Filtering the dataset is helpful, as working with large dataset can be computationally expensive.
-  * Leveraging local LLMs with semantic search successfully recommends food recipe matching based on user-provided ingredients.
+  * Leveraging local LLM with semantic search successfully recommends food recipe matching based on user-provided ingredients.
 
