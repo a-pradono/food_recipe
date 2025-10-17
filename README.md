@@ -27,25 +27,19 @@ The workflow above demonstrates how I created the recommender systems using Olla
 The first figure below explains the results after data pre-processing step. The final dataset was filtered to include only meat-based recipes with a rating over 4.5, less than 25 minutes of total preparation and cooking time, and high-protein content of greater than 30 g. This also reduced the dataset from about 500,000 rows to only 130 rows, ensuring improved efficiency and faster processing for the LLM-based recipe recommendation system.
 
 <p align="center">
-  <img width="500" height="200" src="https://github.com/a-pradono/food_recipe/blob/main/images/plot01.png">
+  <img width="500" height="500" src="https://github.com/a-pradono/food_recipe/blob/main/images/plot01.png">
 </p>
 
-Users can query the system based on the ingredients available at home to get personalized recipe recommendations. For example, the user inputs bread, patties, and mushroom as the available ingredients.
+Users can query the system based on the ingredients available at home to get personalized recipe recommendations. For example, the user inputs **bread, patties, and mushroom** as the available ingredients. After entering the ingredients, the system recommends two recipe options, each providing detailed information such as the meal name, preparation and cooking time, calories, protein content, and full instructions, allowing users to easily choose between them.
 
 <p align="center">
-  <img width="700" height="200" src="https://github.com/a-pradono/food_recipe/blob/main/images/plot02.PNG">
-</p>
-
-After entering the ingredients, the system recommends two recipe options, each providing detailed information such as the meal name, preparation and cooking time, calories, protein content, and full instructions, allowing users to easily choose between them.
-
-<p align="center">
-  <img width="700" height="300" src="https://github.com/a-pradono/food_recipe/blob/main/images/plot03.PNG">
+  <img width="700" height="500" src="https://github.com/a-pradono/food_recipe/blob/main/images/plot03.PNG">
 </p>
 
 Here is the step-by-step flow that takes a user query and returs the meal recipe recommendation.
 
 <p align="center">
-  <img width="700" height="300" src="https://github.com/a-pradono/food_recipe/blob/main/images/plot04.gif">
+  <img width="700" height="600" src="https://github.com/a-pradono/food_recipe/blob/main/images/plot04.gif">
 </p>
 
 ## IV. Conclusions
