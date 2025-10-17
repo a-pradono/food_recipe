@@ -36,7 +36,7 @@ Users can query the system based on the ingredients available at home to get per
   <img width="700" height="500" src="https://github.com/a-pradono/food_recipe/blob/main/images/plot03.PNG">
 </p>
 
-Here is the step-by-step flow that takes a user query and returs the meal recipe recommendation.
+Here is the step-by-step flow that takes a user query and returns the meal recipe recommendation.
 
 <p align="center">
   <img width="700" height="600" src="https://github.com/a-pradono/food_recipe/blob/main/images/plot04.gif">
