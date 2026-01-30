@@ -1,11 +1,3 @@
-<p align="center">
-  <img width="250" height="250" src="https://github.com/a-pradono/food_recipe/blob/main/images/header.jpg">
-</p>
-<p align="center">
-Photo by <a href="https://unsplash.com/@enginakyurt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">engin akyurt</a> on <a href="https://unsplash.com/photos/a-person-burning-a-fire-vUlsoVpTbZs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-</p>
-
-
 ## Table of Contents
 
 - [I. Introduction](#i-introduction)
